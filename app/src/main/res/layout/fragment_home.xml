@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/google_maps_fragment"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:id="@+id/img_btn_gps_on"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_above="@+id/img_btn_piedibus"
+        android:layout_alignEnd="@id/google_maps_fragment"
+        android:layout_alignParentEnd="false"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="80dp"
+        android:background="@drawable/circle_button_actual_location"
+        android:maxHeight="30dp"
+        android:scaleType="center"
+        android:src="@drawable/ic_actual_location"
+        android:visibility="gone" />
+
+    <ImageButton
+        android:id="@+id/img_btn_gps_off"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_above="@+id/img_btn_piedibus"
+        android:layout_alignEnd="@id/google_maps_fragment"
+        android:layout_alignParentEnd="false"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="80dp"
+        android:background="@drawable/circle_button_actual_location"
+        android:maxHeight="30dp"
+        android:scaleType="center"
+        android:src="@drawable/ic_gps_off"
+        android:visibility="gone" />
+
+    <ImageButton
+        android:id="@+id/img_btn_piedibus"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignEnd="@id/google_maps_fragment"
+        android:layout_alignParentEnd="false"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/circle_button"
+        android:maxHeight="30dp"
+        android:scaleType="center"
+        android:src="@drawable/ic_piedibus_bigger" />
+
+    <Button
+        android:id="@+id/startPiedibus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/circle_button"
+        android:justificationMode="inter_word"
+        android:text="  Avvia PiediBus  " />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/stopPiedibus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/circle_button_red"
+        android:text="       Ferma PiediBus       "
+        android:textColor="@color/white"
+        android:visibility="gone"/>
+
+</RelativeLayout>
