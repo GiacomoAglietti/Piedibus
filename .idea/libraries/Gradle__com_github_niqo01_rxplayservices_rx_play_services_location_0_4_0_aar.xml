@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.niqo01.rxplayservices:rx-play-services-location:0.4.0@aar" external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/e681ebecf301057553cc20c81c09f5d0/transformed/jetified-rx-play-services-location-0.4.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/e681ebecf301057553cc20c81c09f5d0/transformed/jetified-rx-play-services-location-0.4.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.niqo01.rxplayservices/rx-play-services-location/0.4.0/dc033133a8e81033dac2c0eec719c110bed0ec7c/rx-play-services-location-0.4.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.niqo01.rxplayservices/rx-play-services-location/0.4.0/4eb042e8034a901fb8a07f6386383bccd1ac3492/rx-play-services-location-0.4.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

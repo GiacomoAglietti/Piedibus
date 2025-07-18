@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.niqo01.rxplayservices:rx-play-services-task:0.4.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/06f170370e0daa9a267171fe9ab73569/transformed/jetified-rx-play-services-task-0.4.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/06f170370e0daa9a267171fe9ab73569/transformed/jetified-rx-play-services-task-0.4.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/06f170370e0daa9a267171fe9ab73569/transformed/jetified-rx-play-services-task-0.4.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.niqo01.rxplayservices/rx-play-services-task/0.4.0/dc033133a8e81033dac2c0eec719c110bed0ec7c/rx-play-services-task-0.4.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.niqo01.rxplayservices/rx-play-services-task/0.4.0/8fb0efb72d62022282ee5b639b0927dfd2d4a13f/rx-play-services-task-0.4.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
